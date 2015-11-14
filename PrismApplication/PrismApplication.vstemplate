@@ -17,8 +17,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="Bootstrapper.cs">Bootstrapper.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>      
       <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>      
-      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="Packages.config">Packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>      
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
       <Folder Name="_Properties" TargetFolderName="Properties">
@@ -32,8 +31,7 @@
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
   </WizardExtension>
   <WizardData>
-    <packages repository="extension"
-          repositoryId="PrismTemplatesPack.IMasmitja.b6e21784-e8fe-4852-90d6-3d93fcf827ea">
+    <packages repository="extension" repositoryId="PrismTemplatesPack.IMasmitja.b6e21784-e8fe-4852-90d6-3d93fcf827ea">
       <package id="CommonServiceLocator" version="1.3" />
       <package id="Prism.Core" version="6.1.0" />
       <package id="Prism.Unity" version="6.1.1" />
