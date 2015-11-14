@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="PrismTemplatesPack.Ivan Masmitjà.b6e21784-e8fe-4852-90d6-3d93fcf827ea" Version="1.0" Language="en-US" Publisher="Ivan Masmitjà" />
+    <Identity Id="PrismTemplatesPack.IMasmitja.b6e21784-e8fe-4852-90d6-3d93fcf827ea" Version="0.1" Language="en-US" Publisher="Ivan Masmitjà" />
     <DisplayName>PrismTemplatesPack</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Description xml:space="preserve">Prism Templates Pack</Description>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -14,5 +16,10 @@
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="PrismApplication" d:TargetPath="|PrismApplication;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="PrismModule" d:TargetPath="|PrismModule;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="CommonServiceLocator.1.3.nupkg" d:Source="File" Path="Packages\CommonServiceLocator.1.3.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="Prism.Core.6.1.0.nupkg" d:Source="File" Path="Packages\Prism.Core.6.1.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="Prism.Wpf.6.1.0.nupkg" d:Source="File" Path="Packages\Prism.Wpf.6.1.0.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="Prism.Unity.6.1.1.nupkg" d:Source="File" Path="Packages\Prism.Unity.6.1.1.nupkg" d:VsixSubPath="Packages" />
+    <Asset Type="Unity.4.0.1.nupkg" d:Source="File" Path="Packages\Unity.4.0.1.nupkg" d:VsixSubPath="Packages" />
   </Assets>
 </PackageManifest>

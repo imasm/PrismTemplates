@@ -27,7 +27,8 @@
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
   </WizardExtension>
   <WizardData>
-    <packages repository="template">
+    <packages repository="extension"
+          repositoryId="PrismTemplatesPack.IMasmitja.b6e21784-e8fe-4852-90d6-3d93fcf827ea">
       <package id="CommonServiceLocator" version="1.3" />
       <package id="Prism.Core" version="6.1.0" />
       <package id="Prism.Unity" version="6.1.1" />
