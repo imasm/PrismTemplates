@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApplication", "PrismAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismModule", "PrismModule\PrismModule.csproj", "{63D40D34-6BB1-4E16-828A-5F88B1438A79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTemplatesPack", "PrismTemplatesPack\PrismTemplatesPack.csproj", "{58D0EFDD-5A59-42AA-9A08-055C284FC7E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{63D40D34-6BB1-4E16-828A-5F88B1438A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D40D34-6BB1-4E16-828A-5F88B1438A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D40D34-6BB1-4E16-828A-5F88B1438A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58D0EFDD-5A59-42AA-9A08-055C284FC7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D0EFDD-5A59-42AA-9A08-055C284FC7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D0EFDD-5A59-42AA-9A08-055C284FC7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D0EFDD-5A59-42AA-9A08-055C284FC7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
