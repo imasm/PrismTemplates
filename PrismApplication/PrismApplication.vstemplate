@@ -5,7 +5,7 @@
     <Description>PrsimApplication</Description>
     <Icon>PrismApplication.ico</Icon>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>c9b8fcee-d97f-4441-aeff-c82ab5568e87</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
